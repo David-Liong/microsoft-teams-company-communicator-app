@@ -27,7 +27,7 @@
     "react-scripts": "^3.4.4",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
-    "typescript": "3.5.1",
+    "typescript": "3.9.7",
     "typestyle": "^2.0.2"
   },
   "scripts": {
