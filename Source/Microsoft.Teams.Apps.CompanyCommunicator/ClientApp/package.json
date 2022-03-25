@@ -28,13 +28,16 @@
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "typescript": "3.5.1",
-    "typestyle": "^2.0.2"
+    "typestyle": "^2.0.2",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -66,5 +69,6 @@
     "@types/redux": "^3.6.0",
     "tslint": "^5.20.0",
     "tslint-microsoft-contrib": "6.2.0"
-  }
+  },
+  "snyk": true
 }
